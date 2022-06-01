@@ -34,6 +34,27 @@ background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73
 	transition: all 0.3s ease 0s;
 }
 
+#addroom{
+width: 20%; border-radius: 10px;
+transition: all 0.3s ease 0s;
+}
+
+#addroom:hover{
+	background:lightgray;
+	color: black;
+}
+
+#logout{
+	width: 20%; border-radius: 10px;
+	transition: all 0.3s ease 0s;
+	}
+	
+	#logout:hover{
+		background:lightgray;
+		color: black;
+	}
+
+
 #login_button:hover{
 	background:lightgray;
 	color: black;
