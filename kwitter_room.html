@@ -21,7 +21,8 @@
 </head>
 <body>
 <div class="container">
-<button id="logout" class="glyphicon glyphicon-log-out btn btn-danger">Logout</button>
+	<br>
+<button id="logout" class="btn btn-danger" onclick="logout()">Logout</button>
 	<center>
 		<h1 class="header">	
 			Kwitter	
@@ -31,10 +32,10 @@
 		</h1>
 		<h3 id="user_name" class="color_white"></h3>
 		<div class="form-group input_div_room_page">
-			<label>#Add Room:</label>
+			<label>Add Room:</label>
 <input type="text" id="room_name" class="form-control" placeholder="Room Name">
 		</div>
-		<button id="addroom" onclick="addRoom()" class="btn btn-success">#Add Room</button>
+		<button id="addroom" onclick="addRoom()" class="btn btn-success">Add Room</button>
 		<h3 class="color_white">TRENDING ROOMS</h3>
 	<div id="output"></div>
 	</center>

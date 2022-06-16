@@ -46,7 +46,7 @@ transition: all 0.3s ease 0s;
 
 #logout{
 	width: 20%; border-radius: 10px;
-	transition: all 0.3s ease 0s;
+	transition: all 0.2s ease 0s;
 	}
 	
 	#logout:hover{
@@ -69,13 +69,13 @@ transition: all 0.3s ease 0s;
 
 #logout
 {
-	font-size: 20px; float: right;
+	font-size: 20px; float: left;
 }
 
 
 #output
 {
-	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
+	padding: 20px; width:60%;background: rgba(255,255,255,0.8);border-radius: 10px; border: 4px solid black
 }
 
 .input_div_room_page
