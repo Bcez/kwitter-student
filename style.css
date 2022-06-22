@@ -54,6 +54,18 @@ transition: all 0.3s ease 0s;
 		color: black;
 	}
 
+	#send_button{
+		width: 50%; border-radius: 10px;
+		transition: all 0.2s ease 0s;
+		margin-bottom:10px;
+		}
+		
+		#send_button:hover{
+			background:lightgray;
+			color: black;
+		}
+	
+
 
 #login_button:hover{
 	background:lightgray;
@@ -69,6 +81,7 @@ transition: all 0.3s ease 0s;
 
 #logout
 {
+	margin-top: 10px;
 	font-size: 20px; float: left;
 }
 
